@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Fivers</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="tabOrPhone.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Tilt+Prism&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/976d7b3d4c.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        window.addEventListener('scroll', reveal);
+
+        function reveal() {
+            var reveals = document.querySelectorAll('.reveal');
+
+            for (var i = 0; i < reveals.length; i++) {
+
+                var windowheight = window.innerHeight;
+                var revealtop = reveals[i].getBoundingClientRect().top;
+                var recealpoint = 150;
+
+                if (revealtop < windowheight - recealpoint) {
+                    reveals[i].classList.add('active');
+                }
+                else {
+                    reveals[i].classList.remove('active');
+                }
+            }
+        }
+
+    </script>
+</head>
+
+<body>
+    <div id="fullBody">
+        <nav id="navbar">
+            <div class="containers">
+                <h2><a href="#">The Fivers</a></h2>
+                <div class="bars"></div>
+                <div class="listItems">
+                    <ul>
+                        <li><a href="#members">Members</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contactUs">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <section id="hero">
+            <div class="first"></div>
+            <div class="last">
+                <div class="upperPart">
+                    <span class="subheadding">A group Project</span>
+                    <h1>Th<span>e Five</span>rs</h1>
+                </div>
+                <div class="lowerPart">
+                    <div class="leftH"></div>
+                    <div class="rightH">
+                        <!-- ................. 31Words .......................... -->
+                        <h2>Welcome to The Fivers: A dynamic group of five aspiring B.Tech students from Techno
+                            International New Town. With a passion for innovation and diverse ideas, we are on a mission
+                            to implement groundbreaking projects. Join us on our journey of creativity, collaboration,
+                            and technological excellence.</h2>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section id="members">
+            <!-- ...................... Max 86 words ...........................  -->
+            <div id="arpan" class="divider">
+                <div class="leftContent">
+                    <img src="assests/Arpan.jpeg" alt="not laod" id="img">
+                </div>
+                <div class="rightContent">
+                    <div class="name">
+                        <h1 id="name1">Arpan Roy</h1>
+                        <h5 id="stream">B.Tech in ECE (Techno International New Town)</h5>
+                    </div>
+                    <div class="socialLinks">
+                        <ul>
+                            <li><a href="#"><img src="assests/facebook.svg" alt=""></a></li>
+                            <li><a href="#"><img src="assests/linkedin.svg" alt=""></a></li>
+                            <li><a href="#"><img src="assests/github.svg" alt=""></a></li>
+                        </ul>
+                    </div>
+                    <!-- <div class="name">
+                        <h1>Arpan Roy</h1>
+                    </div> -->
+                    <div class="about">
+                        <p>
+                            Hey there! I'm Arpan Roy, a final year B.Tech student at Techno International NewTown. Let
+                            me give you a glimpse into my tech-filled world. I'm well-versed in programming languages
+                            like C (I'm at an intermediate level), C++ (my go-to for versatility), and I've dipped my
+                            toes into Java too. But that's not all! I love crafting stunning webpages with HTML, CSS,
+                            and a sprinkle of JavaScript magic.<br><br>
+
+                            Beyond coding, I'm a natural-born leader. During our college hacathon "KAVACH," I led my
+                            team to a commendable top 20 position out of 132 teams. Time management and team
+                            coordination? Consider them my superpowers!<br><br>
+
+                            I'm always hungry to learn and embrace new challenges, constantly expanding my tech
+                            horizons. So, get ready to join me on an exciting journey through the ever-evolving world of
+                            technology. Let's make waves together!
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div id="ayush" class="divider">
+
+                <div class="leftContent">
+                    <div class="name">
+                        <h1 id="name1">Ayush Paul</h1>
+                        <h5 id="stream">B.Tech in ECE(Techno International New Town)</h5>
+                    </div>
+                    <div class="socialLinks">
+                        <ul>
+                            <li><a href="#"><img src="assests/facebook.svg" alt=""></a></li>
+                            <li><a href="#"><img src="assests/linkedin.svg" alt=""></a></li>
+                            <li><a href="#"><img src="assests/github.svg" alt=""></a></li>
+                        </ul>
+                    </div>
+
+                    <div class="about">
+                        <p>Hey there! I'm Ayush Paul, a final year B.Tech student at Techno International NewTown. When
+                            it comes to tech skills, I've got you covered with my proficiency in programming languages
+                            like C (intermediate) and a basic grasp of Java. But that's not all! I also dabble in web
+                            development, handling HTML, CSS, and even exploring DBMS.<br>
+
+                            Now, let's talk about my hardware inclination. I love tinkering with hardware ideas, from
+                            assembling components to troubleshooting. Alongside my technical expertise, I possess strong
+                            leadership abilities, exceptional time management, and seamless team coordination. In the
+                            intense hacathon "KAVACH," my team secured a remarkable top 20 position out of 132 competing
+                            teams.<br>
+
+                            Get ready to join me on an exhilarating journey as I combine my tech skills, hardware
+                            know-how, and passion for learning to conquer new frontiers!</p>
+                    </div>
+                </div>
+                <div class="rightContent" id="right">
+                    <img src="assests/Ayush.jpeg" alt="not laod" id="img-lef">
+                </div>
+            </div>
+            <div id="sagnik" class="divider">
+                <div class="leftContent">
+                    <img src="assests/sagnik.jpeg" alt="not laod" id="img">
+                </div>
+                <div class="rightContent">
+                    <div class="name">
+                        <h1 id="name1">Sagnik Acharya</h1>
+                        <h5 id="stream">B.Tech in ECE(Techno International New Town)</h5>
+                    </div>
+                    <div class="socialLinks">
+                        <ul>
+                            <li><a href="#"><img src="assests/facebook.svg" alt=""></a></li>
+                            <li><a href="#"><img src="assests/linkedin.svg" alt=""></a></li>
+                            <li><a href="#"><img src="assests/github.svg" alt=""></a></li>
+                        </ul>
+                    </div>
+
+                    <div class="about">
+                        <p>Hey there, I'm Sagnik Acharya, a final year B.Tech student at Techno International NewTown. When it comes to tech skills, Java is my forte (I'm at an intermediate level) and problem-solving is my jam. But hold on, there's more to me than just coding. I'm a quick learner, always eager to dive into new domains. My professional skills shine in time management and team coordination, which proved invaluable in the college hackathon "KAVACH." Among 132 competing groups, we proudly secured a spot in the top 20.<br> 
+                            Additionally, I thrive on exploring the realm of hardware, with a keen interest in Arduino programming. Combining my technical skills, adaptability, and a passion for innovation, I'm ready to make a lasting impact in the ever-evolving world of technology.<br>Get ready to join me on an exciting tech adventure! </p>
+                    </div>
+                </div>
+            </div>
+            <div id="uday" class="divider">
+                <div class="leftContent">
+                    <div class="name">
+                        <h1 id="name1">Uday Narayan Khanra</h1>
+                        <h5 id="stream">B.Tech in ECE(Techno International New Town)</h5>
+                    </div>
+                    <div class="socialLinks">
+                        <ul>
+                            <li><a href="#"><img src="assests/facebook.svg" alt=""></a></li>
+                            <li><a href="#"><img src="assests/linkedin.svg" alt=""></a></li>
+                            <li><a href="#"><img src="assests/github.svg" alt=""></a></li>
+                        </ul>
+                    </div>
+
+                    <div class="about">
+                        <p>Hey, I'm Uday Narayan Khanra, a final year B.Tech student at Techno International NewTown. Let me take you on a journey through my tech-filled world. Electronics hardware and programming? That's my jam! I have a deep understanding of electronics hardware, and my programming skills in C (at an intermediate level) give me the power to bring ideas to life. But it doesn't stop there! I'm a quick learner, always hungry for new knowledge.<br><br>
+
+                            With impeccable time management and team coordination skills, I excel in collaborative environments. In the epic college hackathon "KAVACH," our team made its mark, securing a stellar top 20 position among 132 competing groups. Oh, and did I mention? I've got some awesome expertise in Arduino programming too. Brace yourself for a thrilling ride into the realm of technology with me by your side!</p>
+                    </div>
+                </div>
+                <div class="rightContent" id="right">
+                    <img src="assests/Uday.jpeg" alt="not laod" id="img-lef">
+                </div>
+            </div>
+            <div id="soumodip" class="divider">
+                <div class="leftContent">
+                    <img src="assests/Soumodip.png" alt="not laod" id="img">
+                </div>
+                <div class="rightContent">
+                    <div class="name">
+                        <h1 id="name1">Soumodip Bhattacharjee</h1>
+                        <h5 id="stream">B.Tech in ECE(Techno International New Town)</h5>
+                    </div>
+                    <div class="socialLinks">
+                        <ul>
+                            <li><a href="#"><img src="assests/facebook.svg" alt=""></a></li>
+                            <li><a href="#"><img src="assests/linkedin.svg" alt=""></a></li>
+                            <li><a href="#"><img src="assests/github.svg" alt=""></a></li>
+                        </ul>
+                    </div>
+
+                    <div class="about">
+                        <p>Hey there, I'm Soumodip Bhattacharjee, a final year B.Tech student at Techno International NewTown. Let me walk you through my tech journey. When it comes to programming, Java is my go-to language (intermediate level), but there's more to my tech prowess. I'm captivated by the fascinating world of VLSI technology, constantly seeking to unravel its complexities. But here's the kicker: I'm not just about technical skills. I possess a hunger for learning that knows no bounds. Alongside that, my professional skills in time management and team coordination have propelled me to thrive in collaborative environments. In the fierce battleground of the college hackathon "KAVACH," my team emerged victoriously, securing a remarkable top 20 position among 132 competing groups. Oh, and did I mention? I'm also well-versed in Arduino programming, adding another dimension to my skill set. Brace yourself for an exhilarating tech journey with me as we explore the limitless possibilities together!.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="projects">
+            <h1>PROJECTS</h1>
+            <div class="para">
+                <p>Embark on a journey through my realm of projects, where creative ideas come to life and innovative solutions are born. Explore my project ideas that promise to push boundaries, alongside a showcase of completed projects that demonstrate my ability to transform concepts into tangible reality.</p>
+            </div>
+            <!-- <div class="headerDown">
+                <div id="header-left"><h1>Projects Done</h1></div>
+                <hr>
+                <div id="header-right"><h1>Project Ideas</h1></div>
+            </div> -->
+            <div class="containers">
+                <div class="left-container">
+                    <h2>Projects Done</h2>
+                    <div class="done" id="I1st">
+                        <img src="assests/TyrePressureSystem.jpeg" alt="">
+                        <h3>Tyre Pressure & Temperature
+                            Monitoring System</h3>
+                        <p>I have built a tire pressure monitoring system specifically designed for heavy vehicles such as trucks and buses. This innovative system helps drivers by providing real-time alerts, enabling them to take necessary actions promptly. By continuously monitoring the tire health, it ensures optimal performance and safety on the road. With advanced sensors and analysis, the system detects any deviations from the recommended pressure levels. The instant alerts empower drivers to address tire-related issues immediately, reducing the risk of accidents and minimizing maintenance costs. This proactive approach promotes longer tire lifespan, enhances fuel efficiency, and contributes to overall vehicle reliability. With my tire pressure monitoring system, drivers can experience safer and more efficient journeys, backed by reliable and up-to-date tire information. Additionally, the system's user-friendly interface and easy installation process make it a convenient choice for vehicle owners. Its compatibility with various heavy vehicles ensures widespread applicability and potential for positive impact in the transportation industry.</p>
+                    </div>
+                    <div class="done" id="I2nd">
+                        <img src="assests/BlogPage.png" alt="">
+                        <h3>Blog Page</h3>
+                        <p>Welcome to our blog page, expertly crafted by Arpan Roy. This page is a showcase of our passion for design and creativity. With a clean and modern layout, we aim to provide you with an enjoyable reading experience.
+
+                            Explore a wide range of engaging articles written by our team of knowledgeable writers. From the latest trends in technology to insightful tips on personal development, our blog covers a diverse range of topics that cater to various interests.
+                            
+                            Immerse yourself in visually stunning imagery carefully curated to complement the written content. Our attention to detail ensures that every element on the page, from typography to color scheme, contributes to an aesthetically pleasing and cohesive design.
+                            
+                            Stay updated by subscribing to our newsletter and never miss a new blog post. We value your feedback, so feel free to leave comments and share your thoughts on our articles. Together, let's embark on a journey of inspiration, knowledge, and discovery."
+                            
+                            Please note that this is just a sample content and can be customized based on the specific design and theme of the blog page.</p>
+                    </div>
+                    <a href="projects.html" class="btnn">See More</a>
+                </div>
+                <!-- <hr> -->
+                <div class="right-container">
+                    <h2>Project Ideas</h2>
+                    <div class="ideas" id="I1st">
+                        <img src="assests/App.png" alt="">
+                        <h3>Woman Safety App</h3>
+                        <p>
+                            The woman's safety app project is a crucial initiative that focuses on addressing the safety concerns faced by women. This mobile application aims to empower women by providing them with a reliable tool to enhance their personal security. The app incorporates features tailored specifically to women's safety, including an emergency alert system that enables users to quickly send distress signals to their emergency contacts. Real-time GPS tracking allows women to share their location with trusted individuals, ensuring that their movements can be monitored for added security. The app also includes a comprehensive database of safe locations, such as police stations and women's shelters, enabling women to easily find nearby safe havens. Privacy and data security are prioritized, ensuring that user information remains confidential. Overall, the woman's safety app project strives to create a safer environment, instill confidence, and provide women with the means to navigate their daily lives with greater peace of mind. </p>
+                    </div>
+                    <div class="ideas" id="I2nd">
+                        <img src="assests/car.jfif" alt="">
+                        <h3>Automated Car</h3>
+                        <p>The fully automated car project is a groundbreaking endeavor that aims to revolutionize transportation. These vehicles are designed to operate autonomously, without any human intervention, using advanced technologies like artificial intelligence, sensors, and algorithms. By integrating various sensors such as cameras, LiDAR, radar, and GPS, these cars can gather and analyze real-time data to navigate and make decisions on the road. The project prioritizes safety by reducing the risk of accidents caused by human error and aims to optimize efficiency by leveraging advanced routing algorithms and vehicle-to-vehicle communication. With the potential to minimize traffic congestion, enhance fuel efficiency, and improve overall road safety, the fully automated car project holds immense promise. However, challenges such as legal frameworks, public acceptance, and technological limitations need to be addressed for its successful implementation. Through ongoing research, collaboration, and development, this project strives to transform the way we commute, making transportation safer, more efficient, and more sustainable.</p>
+                    </div>
+                    <div class="ideas" id="I3rd">
+                        <img src="assests/drone.jpg" alt="">
+                        <h3>Drone as a Delivery Man</h3>
+                        <p>Problem Statement: The existing drone technology lacks advanced features that can truly enhance functionality and usability. Specifically, there is a need for drones with autonomous navigation, object detection, and aerial photography capabilities.
+
+                            Solution: This project aims to address these demands by developing a drone with autonomous navigation using GPS and sensors, enabling it to navigate predefined routes or adapt dynamically to its surroundings. The drone will also incorporate object detection algorithms and sensors for real-time obstacle avoidance.
+                            
+                            Additionally, the drone will be equipped with a high-quality camera system, allowing users to capture stunning aerial photography and videos. Applications include aerial cinematography, surveying, and monitoring.
+                            
+                            The project involves designing and building the drone, integrating necessary hardware components, and developing software algorithms for navigation and object detection. Testing and refinement will ensure reliable and efficient drone operation.
+                            
+                            By creating a versatile drone with advanced features, this project will cater to various industries, including filmmaking, agriculture, infrastructure inspection, and search and rescue operations.</p>
+                    </div>
+                    <a href="projectideas.html" class="btnn">See More</a>
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <h1>About Our Team</h1>
+            <div class="containers">
+                <div class="leftContainer">
+                    <img src="assests/aboutimg.jpg" alt="">
+                </div>
+                <div class="rightContainer">
+                    <p>Our team comprises a dynamic and highly skilled group of professionals who are dedicated to delivering exceptional results. With a diverse range of expertise and a shared passion for excellence, we work collaboratively to tackle complex challenges and achieve our collective goals.<br>
+
+                        Each member of our team brings a unique set of skills and experiences, contributing to a rich and vibrant work environment. From creative thinkers to analytical problem solvers, we have cultivated a balanced team that thrives on innovation and embraces new opportunities.<br>
+                        
+                        We pride ourselves on our strong work ethic and commitment to continuous improvement. We understand the importance of effective communication and collaboration, both internally and with stakeholders. By fostering an open and inclusive culture, we encourage ideas and insights from every team member, creating a supportive environment that nurtures personal and professional growth.
+                        <br>
+                        In addition to our technical prowess, we also value leadership skills and the ability to manage projects efficiently. Time management, organization, and adaptability are key strengths that enable us to meet deadlines and exceed expectations.<br>
+                        
+                        Our team thrives on continuous learning and staying at the forefront of industry trends and best practices. We actively seek out new knowledge, attend workshops and conferences, and participate in training programs to enhance our expertise. This allows us to deliver cutting-edge solutions to our clients and ensures that our work is aligned with the latest industry standards.<br>
+                        
+                        We embrace a collaborative approach, encouraging cross-functional collaboration and leveraging each other's strengths to achieve optimal results. We believe that diversity and inclusivity foster innovation, and we actively promote an environment where everyone feels valued and empowered to contribute.<br>
+                        
+                        In summary, our team is a powerhouse of talent, driven by a passion for excellence, collaboration, and growth. We are dedicated to pushing boundaries, exploring new horizons, and delivering exceptional outcomes. With our combined skills, experience, and relentless pursuit of excellence, we are confident in our ability to overcome challenges and achieve success in every endeavor we undertake.</p>
+                    <br>
+                    <!-- <p> quibusdam modi optio, dignissimos vel excepturi, nulla at saepe assumenda, quae suscipit autem.
+                        Cum magni, reprehenderit obcaecati a quibusdam maiores et? Assumenda ea aliquid consequatur
+                        deserunt? Beatae maiores laborum quisquam et quas laboriosam unde ad impedit in dolorem a
+                        molestias doloribus exercitationem, tempora eos voluptates blanditiis officia id fugiat harum!
+                        Necessitatibus eveniet consectetur debitis vitae fugiat beatae est enim iure quaerat aliquid
+                        accusamus laboriosam explicabo, esse iste? Quo ea consequuntur neque sunt nemo provident dicta
+                        dolor quae cum at voluptate sint nam porro rerum quis, expedita alias earum minima totam
+                        perspiciatis repellat praesentium voluptas! Vero, perspiciatis illum. Illum inventore quis quas
+                        esse non perspiciatis dolor corrupti fugit dolorum cumque perferendis hic beatae, delectus porro
+                        nemo ullam repellat quam, sed dicta. Minus tenetur accusantium voluptates at culpa porro iste
+                        dolorum itaque aperiam sit delectus quidem fugit reiciendis excepturi hic corporis, quos facere.
+                        Perferendis voluptatum architecto quis harum suscipit. Voluptate aliquam debitis suscipit earum
+                        quaerat quam porro distinctio laudantium repellat architecto, numquam cum dolorem est ipsam.
+                        Facere, odio! Adipisci modi fuga, molestias voluptatem perferendis laboriosam, temporibus
+                        incidunt facere voluptate nulla explicabo, eaque dolorum! Soluta!
+                    </p> -->
+                </div>
+            </div>
+        </section>
+        <section id="contactUs">
+            <h1>Contact Us</h1>
+            <p>
+                If you'd like to get in touch with us, simply share your details, and we'll get back to you in a jiffy! We appreciate your time and are eager to connect. Rest assured, we'll make every effort to reach out as soon as possible. Thanks for considering us as your go-to team, and we can't wait to chat with you soon!</p>
+            <form class="row g-3">
+                <div class="col-md-6">
+                    <label for="inputEmail4" class="form-label">Email:</label>
+                    <input type="email" class="form-control" id="inputEmail4">
+                </div>
+                <div class="col-md-6">
+                    <label for="inputPassword4" class="form-label">Phone Number:</label>
+                    <input type="number" class="form-control" id="inputPassword4">
+                </div>
+                <div class="col-12">
+                    <label for="inputAddress" class="form-label">Full Name:</label>
+                    <input type="text" class="form-control" id="inputAddress" placeholder=" ">
+                </div>
+                <div class="col-12">
+                    <label for="inputAddress2" class="form-label">Subject:</label>
+                    <input type="text" class="form-control" id="inputAddress2" placeholder="">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <div class="col-md-4">
+                    <label for="inputState" class="form-label">Project Type:</label>
+                    <select id="inputState" class="form-select">
+                        <option selected>Choose...</option>
+                        <option>Software</option>
+                        <option>Hardware</option>
+                    </select>
+                </div>
+                <!-- <div class="col-md-2">
+                  <label for="inputZip" class="form-label">Zip</label>
+                  <input type="text" class="form-control" id="inputZip">
+                </div> -->
+                <div class="col-12">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                        <label class="form-check-label" for="gridCheck">
+                            Check me out
+                        </label>
+                    </div>
+                </div>
+                <div class="Side">
+                    <div class="col-12" style="padding-bottom: 10px;">
+                        <button type="submit" class="btn btn-primary" onclick="showAlert()">Contact Us</button>
+                    </div>
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-primary" onclick="showAlert()">Hire Us</button>
+                    </div>
+                </div>
+            </form>
+        </section>
+        <a href="#" class="back-to-top" style="display: inline;"><i class="fa-solid fa-arrow-up"></i></a>
+    </div>
+</body>
+<script>
+    function showAlert() {
+      alert("We are pleased to announce that we will commence the development of the backend in the near future.");
+    }
+    </script>
+
+</html>
