@@ -22,7 +22,8 @@
     #about .containers .leftContainer {
         padding: 0px 0px 20px 0px;
     }
-    .left-container{
+
+    .left-container {
         border-right: none;
     }
 }
@@ -62,8 +63,25 @@
         text-transform: uppercase;
         letter-spacing: 3px;
     } */
+    #hero {
+        display: flex;
+        flex-direction: row;
+        padding: 10px;
+        align-items: flex-end;
+        /* text-align: right; */
+    }
+
     #hero .first {
         padding-left: 0%;
+    }
+
+    #hero .last .lowerPart .rightH h2 {
+        font-size: 24px;
+        letter-spacing: 1.5px;
+        line-height: 28px;
+        font-weight: 200;
+        color: #919191;
+        text-align: justify;
     }
 
     #hero .last .upperPart .subheadding {
@@ -126,22 +144,22 @@
         order: 1;
     } */
     .about p {
-        font-size: 17px;
+        font-size: 18px;
         line-height: 30px;
-        letter-spacing: 2px;
+        letter-spacing: 1.5px;
         font-weight: 100;
         text-align: justify;
         padding: 0px 10px;
     }
 
     .leftContent img {
-        width: 225px;
+        width: 250px;
         height: 320px;
         /* padding-right: 50px; */
     }
 
     .rightContent img {
-        width: 225px;
+        width: 240px;
         height: 320px;
     }
 
@@ -150,7 +168,7 @@
     }
 
     #arpan .leftContent img {
-        width: 225px;
+        width: 250px;
         height: 365px;
     }
 
@@ -189,6 +207,7 @@
         /* padding-top: 20px; */
         margin: 0px 0px 0px 0px;
     }
+
     .right-container h2 {
         font-size: 25px;
         align-items: center;
@@ -197,6 +216,7 @@
         padding-top: 20px;
         margin: 0px 0px 0px 0px;
     }
+
     .right-container img {
         width: 343px;
         padding: 10px 0px 10px 0px;
@@ -207,10 +227,11 @@
         font-size: 45px;
     }
 
-    .done h3{
+    .done h3 {
         font-size: 2rem;
         text-align: center;
     }
+
     .ideas h3 {
         font-size: 2rem;
     }
@@ -236,7 +257,7 @@
     #projects .para {
         font-size: 15px;
         text-align: center;
-        padding: 10px 20px 10px 20px;
+        padding: 10px;
     }
 
     #about .containers .rightContainer {
